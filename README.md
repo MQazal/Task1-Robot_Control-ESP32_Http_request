@@ -4,5 +4,4 @@ In this task, for first part, I created a robot control panel weppage that is re
 
 So, I design first web page that contains these control buttons by Html with the function of sendDirection by javascripit, CSS style and connected them to the database (phpmyadmin) by PHP script to save a mouse click in different directions in any order in index.html and save_direction.php files.
 Then, in the second web page, I write the code that connects to database by PHP script to retrieve last direction when it is called by retrieve_last_direction.php file.
-
-To learn myself about this task I used educational resources of PPT slides.
+I used educational resources of PPT slides to solve task's problems.
