@@ -1,0 +1,73 @@
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.control-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 120px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #e0e0e0;
+    transform: scale(0.95);
+}
+
+#last-direction {
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+a:link,a:visited{
+    background-color: white;
+    color: black;
+    border: 2px inset green;
+    padding: 10px 20px;text-align: center;display: inline-block;}
+    a:hover,a:active{background-color: rgb(128, 32, 0);color: white;}
+    div{text-align: center;}
+    a{font-family: Verdana, Geneva, Tahoma, sans-serif;}a{font-size: 25px;}
+    h1{font-family:cursive; color:black; font-style: unset; text-align: center;
+    }
